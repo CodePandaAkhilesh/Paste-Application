@@ -1,17 +1,19 @@
 {
-  "homepage": "https://CodePandaAkhilesh.github.io/Notes-Saver-Application",
+  "homepage": "https://CodePandaAkhilesh.github.io/Paste-Application",
   "name": "paste-app",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "lint": "eslint .",
-    "preview": "vite preview",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build" 
-  },
+  "dev": "vite",
+  "build": "vite build",
+  "lint": "eslint .",
+  "preview": "vite preview",
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d dist",
+  "start": "vite",
+  "test": "echo \"No test specified\" && exit 0"
+},
   "dependencies": {
     "@reduxjs/toolkit": "^2.2.8",
     "gh-pages": "^6.1.1",
@@ -31,8 +33,6 @@
     "eslint-plugin-react-hooks": "^5.1.0-rc.0",
     "eslint-plugin-react-refresh": "^0.4.12",
     "globals": "^15.9.0",
-    "init": "^0.1.2",
-    "npx": "^3.0.0",
     "postcss": "^8.4.47",
     "tailwindcss": "^3.4.13",
     "vite": "^5.4.8"

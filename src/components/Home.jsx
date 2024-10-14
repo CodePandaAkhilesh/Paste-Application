@@ -3,6 +3,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { addToPastes, updateToPastes } from "../redux/pasteSlice"; 
 import { useSearchParams } from "react-router-dom";
 
+
 const Home = () => {
     const [title, setTitle] = useState(""); 
     const [value, setValue] = useState("");

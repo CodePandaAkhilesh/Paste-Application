@@ -2,6 +2,7 @@ import React from 'react';
 import { useSelector } from "react-redux"; 
 import { useParams } from "react-router-dom";
 
+
 const ViewPaste = () => {
   const { id } = useParams();
   const allPastes = useSelector((state) => state.paste.pastes);
